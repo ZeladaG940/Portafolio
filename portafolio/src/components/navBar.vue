@@ -3,7 +3,7 @@
         <!--Barra de navegacion-->
         <nav class="navbar">
             <div class="navbar-menu">
-                <!--v-for = nav es cada objeto de navegacion  //key="nav.nombre = es un id para cada objeto"-->
+                <!--v-for = nav es cada objeto de la variable navegacion  //key="nav.nombre = es un id para cada objeto"-->
                 <ul>
                     <a v-for="nav in navegacion" :key="nav.nombre" class="nav.item">{{ nav.nombre }}</a>
                 </ul>
