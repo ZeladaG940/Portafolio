@@ -1,9 +1,13 @@
 
 <script setup>
-import navBar from './components/navBar.vue';
-import DatosPersonales from './components/DatosPersonales.vue';
-  const nombre = "Orlando";
-
+  import ExperienciaFullStak from './components/ExperienciaFullStak.vue';
+  import Proyectos from './components/ProyectosComponente.vue';
+  import navBar from './components/navBar.vue';
+  import DatosPersonales from './components/DatosPersonales.vue';
+  import EducacionCursos from './components/EducacionCursos.vue';
+  import ProyectosComponente from './components/ProyectosComponente.vue';
+  import HabilidadesComponente from './components/HabilidadesComponente.vue';
+  import InterecesComponente from './components/InterecesComponente.vue';
 </script>
 
 <template>
@@ -12,14 +16,20 @@ import DatosPersonales from './components/DatosPersonales.vue';
     <DatosPersonales/>
   </header>
   <main>
-    <section id="educacion"><h2>Educacion - Cursos</h2></section>
-    <section id="experiencia"><h2>Experiencias</h2></section>
-    <section id="proyectos"><h2>Proyectos</h2></section>
-    <section id="habilidades"><h2>Habilidades</h2></section>
-    <section id="intereses"><h2>Intereses</h2></section>
+    <section id="educacion"><EducacionCursos/></section>
+
+    <section id="experiencia"><ExperienciaFullStak/></section>
+
+    <section id="proyectos"><ProyectosComponente/></section>
+
+    <section id="habilidades"><HabilidadesComponente/></section>
+
+    <section id="intereses"><InterecesComponente/></section>
   </main>
 </template>
 
 <style scoped>
-
+  section{
+    text-align: center;
+  }
 </style>

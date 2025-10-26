@@ -29,7 +29,7 @@
             <!--lista de redes sociales-->
             <ul class="container-lista">
                 <li v-for="red in redesSociales" :key="red.id">
-                    <a :href="red.url"><img class="icon-redsocial" :src="red.src" :alt="red.nombre" width="35rem"></a>
+                    <a :href="red.url" target="_blank" rel="noopener noreferrer"><img class="icon-redsocial" :src="red.src" :alt="red.nombre" width="35rem"></a>
                 </li>
             </ul>
             
@@ -57,6 +57,7 @@
         padding: 10px;
         margin: 10px;
         text-align: center;
+        border: 2px solid #007bff;
     }
 
     .container-lista{
