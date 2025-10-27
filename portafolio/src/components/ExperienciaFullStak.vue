@@ -1,4 +1,8 @@
 <script setup>
+import usb from '../assets/usb-svgrepo-com.svg';
+import webPage from '../assets/web-page-material-svgrepo-com.svg';
+import baseData from '../assets/web-cloud-server-database-hosting-storage-svgrepo-com.svg';
+import Seguridad from '../assets/web-guard-svgrepo-com.svg';  
 // Importamos la función 'ref' desde Vue para crear variables reactivas
 import { ref } from 'vue';
 
@@ -10,25 +14,25 @@ const fecha = "2020 - 2025";
 const experiencia = ref([
   {
     id: 1,
-    src: "/src/assets/usb-svgrepo-com.svg",
+    src: usb,
     parrafo:
       "Lideré un equipo de 5 personas para un proyecto de casino online con recargas y juegos en tiempo real, logrando un alto nivel de éxito y participación."
   },
   {
     id: 2,
-    src: "/src/assets/web-page-material-svgrepo-com.svg",
+    src: webPage,
     parrafo:
       "Diseñé sitios web personalizables para pequeñas empresas y emprendedores, con interfaces atractivas y completamente responsivas."
   },
   {
     id: 3,
-    src: "/src/assets/web-cloud-server-database-hosting-storage-svgrepo-com.svg",
+    src: baseData,
     parrafo:
       "Colaboré en el desarrollo de aplicaciones internas en PHP y Laravel, incluyendo reportes automatizados con MySQL y documentación técnica."
   },
   {
     id: 4,
-    src: "/src/assets/web-guard-svgrepo-com.svg",
+    src: Seguridad,
     parrafo:
       "Administré bases de datos MySQL y MariaDB, realizando copias de seguridad, restauración, optimización de consultas SQL y control de permisos de usuarios."
   }
@@ -39,7 +43,7 @@ const experiencia = ref([
   <!-- Sección principal de experiencia -->
   <section class="experiencia">
     <!-- Encabezado con título y fecha -->
-     <h2>Expreciencias</h2>
+     <h2>Experiencias 🗺️🧠</h2>
     <div class="header">
       <h3>{{ titulo }}</h3>
       <p class="fecha">{{ fecha }}</p>

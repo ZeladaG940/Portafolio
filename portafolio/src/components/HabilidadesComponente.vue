@@ -1,39 +1,54 @@
 <script setup>
 import { ref } from 'vue';
-
+import javascriptLogo from '../assets/javascript-16-svgrepo-com.svg';
+import java from '../assets/java-16-svgrepo-com.svg';
+import python from '../assets/python-svgrepo-com.svg';
+import html from '../assets/html-124-svgrepo-com.svg';
+import php from '../assets/php01-svgrepo-com.svg';
+import mysql from '../assets/mysql-svgrepo-com.svg';
+import mongo from '../assets/mongodb-svgrepo-com.svg';
+import post from '../assets/postgresql-svgrepo-com.svg';
+import vue from '../assets/vue-16-svgrepo-com.svg';
+import reac from '../assets/react-16-svgrepo-com.svg';
+import node from '../assets/node-16-svgrepo-com.svg';
+import express from '../assets/express-svgrepo-com.svg';
+import git from '../assets/git-merge-svgrepo-com.svg';
+import github from '../assets/github-142-svgrepo-com.svg';
+import vsCode from '../assets/vs-code-logo-microsoft-svgrepo-com.svg';
+import figma from '../assets/figma-svgrepo-com.svg';
 const lengPro = ref([
-    {id: 1, nombre: "Javascript: ", nivel: "Avanzado", src: "/src/assets/javascript-16-svgrepo-com.svg"},
-    {id: 2, nombre: "Java: ", nivel: "Intermedio", src: "/src/assets/java-16-svgrepo-com.svg"},
-    {id: 3, nombre: "Python: ", nivel: "Avanzado", src: "/src/assets/python-svgrepo-com.svg"},
-    {id: 4, nombre: "Html/Css: ", nivel: "Avanzado", src: "/src/assets/html-124-svgrepo-com.svg"},
-    {id: 5, nombre: "Php: ", nivel: "intermedio", src: "/src/assets/php01-svgrepo-com.svg"}
+    {id: 1, nombre: "Javascript: ", nivel: "Avanzado", src: javascriptLogo},
+    {id: 2, nombre: "Java: ", nivel: "Intermedio", src: java},
+    {id: 3, nombre: "Python: ", nivel: "Avanzado", src: python},
+    {id: 4, nombre: "Html/Css: ", nivel: "Avanzado", src: html},
+    {id: 5, nombre: "Php: ", nivel: "intermedio", src: php}
 ]);
 
 const baseDatos = ref([
-    {id: 1, nombre: "MySQL: ", nivel: "Avanzado", src: "/src/assets/mysql-svgrepo-com.svg"},
-    {id: 2, nombre: "MongoDB: ", nivel: "intermedio", src: "/src/assets/mongodb-svgrepo-com.svg"},
-    {id: 3, nombre: "PostgreSQL: ", nivel: "Básico", src: "/src/assets/postgresql-svgrepo-com.svg"}
+    {id: 1, nombre: "MySQL: ", nivel: "Avanzado", src: mysql},
+    {id: 2, nombre: "MongoDB: ", nivel: "intermedio", src: mongo},
+    {id: 3, nombre: "PostgreSQL: ", nivel: "Básico", src: post}
 ]);
 
 const frameyork = ref([
-    {id: 1, nombre: "Vue.js: ", nivel: "Avanzado", src: "/src/assets/vue-16-svgrepo-com.svg"},
-    {id: 2, nombre: "React: ", nivel: "Intermedio", src: "/src/assets/react-16-svgrepo-com.svg"},
-    {id: 3, nombre: "Node.js: ", nivel: "Intermedio", src: "/src/assets/node-16-svgrepo-com.svg"},
-    {id: 4, nombre: "Express.js: ", nivel: "Intermedio", src: "/src/assets/express-svgrepo-com.svg"}
+    {id: 1, nombre: "Vue.js: ", nivel: "Avanzado", src: vue},
+    {id: 2, nombre: "React: ", nivel: "Intermedio", src: reac},
+    {id: 3, nombre: "Node.js: ", nivel: "Intermedio", src: node},
+    {id: 4, nombre: "Express.js: ", nivel: "Intermedio", src: express}
 ]);
 
 const herrami = ref([
-    {id: 1, nombre: "Git: ", nivel: "Avanzado", src: "/src/assets/git-merge-svgrepo-com.svg"},
-    {id: 2, nombre: "GitHub: ", nivel: "Avanzado", src: "/src/assets/github-142-svgrepo-com.svg"},
-    {id: 3, nombre: "VS Code: ", nivel: "Avanzado", src: "/src/assets/vs-code-logo-microsoft-svgrepo-com.svg"},
-    {id: 4, nombre: "Figma: ", nivel: "Intermedio", src: "/src/assets/figma-svgrepo-com.svg"}
+    {id: 1, nombre: "Git: ", nivel: "Avanzado", src: git},
+    {id: 2, nombre: "GitHub: ", nivel: "Avanzado", src: github},
+    {id: 3, nombre: "VS Code: ", nivel: "Avanzado", src: vsCode},
+    {id: 4, nombre: "Figma: ", nivel: "Intermedio", src: figma}
 ]);
 
-const titulo = "Habilidades";
-const lang = "Lenguajes de Programación";
-const frame = "Frameworks y Librerías";
-const herra = "Herramientas de Desarrollo";
-const base = "Bases de Datos";
+const titulo = "Habilidades 💻🛠️";
+const lang = "Lenguajes de Programación 🧠";
+const frame = "Frameworks y Librerías 🚀";
+const herra = "Herramientas de Desarrollo 🛠️";
+const base = "Bases de Datos 🗄️";
 </script>
 
 <template>

@@ -26,8 +26,8 @@ const inter = "Mis Intereses";
 
 <template>
   <section class="intereses-seccion">
-    <h3>{{ inter }}</h3>
     <div class="contenedor">
+      <h3>{{ inter }}</h3>
       <ul class="contenedor-lista">
         <!-- Iteramos sobre los intereses y mostramos cada uno -->
         <li v-for="interes in intereses" :key="interes.id" class="item">
@@ -54,6 +54,7 @@ const inter = "Mis Intereses";
     font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
+    margin-right: 5rem;
   }
 
   /* Estilos para la lista */

@@ -30,6 +30,8 @@
         color: #fff;
         padding: 0.5rem 1rem;
         align-items: center;
+        border: 2px solid #007bff;
+        border-radius: 10px;
     }
     .navbar-menu{
         display: flex;

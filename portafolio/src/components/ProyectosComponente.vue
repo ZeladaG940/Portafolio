@@ -1,5 +1,9 @@
 <script setup>
 import { ref } from 'vue';
+import descubre from '/src/assets/img/descubre-los-7-tipos-de-sitios-web-mas-populares.jpg';
+import pagina from '/src/assets/img/pagina-web.webp';
+import web from '/src/assets/img/por-que-tener-una-pagina-web.png-601x401.webp';
+import tipos from '/src/assets/img/tipos-clasificacion-paginas-web.png.webp';
 
 //arreglo de proyectos
 const Educacion = ref([]);
@@ -11,7 +15,7 @@ Educacion.value = [
     descripcion:
       'Creación de un blog personal con registro e inicio de sesión, publicación de artículos y comentarios. Enfocado en aprender la estructura cliente-servidor y el manejo de bases de datos NoSQL.',
     enlace: '#',
-    src: "/src/assets/img/descubre-los-7-tipos-de-sitios-web-mas-populares.jpg",
+    src: descubre,
     link: "https://github.com/ZeladaG940?tab=repositories"
   },
   {
@@ -21,7 +25,7 @@ Educacion.value = [
     descripcion:
       'Desarrollo de una aplicación de comercio electrónico con carrito de compras, administración de productos y simulación de pagos. Implementación completa de un API RESTful.',
     enlace: '#',
-    src: "/src/assets/img/pagina-web.webp",
+    src: pagina,
     link: "https://github.com/ZeladaG940?tab=repositories"
   },
   {
@@ -31,7 +35,7 @@ Educacion.value = [
     descripcion:
       'Aplicación que permite crear, editar y eliminar tareas, con autenticación basada en tokens JWT. Se refuerzan conceptos de seguridad y manejo de sesiones.',
     enlace: '#',
-    src: "/src/assets/img/por-que-tener-una-pagina-web.png-601x401.webp",
+    src: web,
     link: "https://github.com/ZeladaG940?tab=repositories"
   },
   {
@@ -41,7 +45,7 @@ Educacion.value = [
     descripcion:
       'Creación de un panel de análisis de datos con consultas dinámicas mediante GraphQL. Visualización de datos en tiempo real y filtrado avanzado con gráficos interactivos.',
     enlace: '#',
-    src: "/src/assets/img/tipos-clasificacion-paginas-web.png.webp",
+    src: tipos,
     link: "https://github.com/ZeladaG940?tab=repositories"
   },
 ];
@@ -51,7 +55,7 @@ const github = "Ver en GitHub";
 
 <template>
   <section class="educacion">
-    <h2>Proyectos</h2>
+    <h2>Proyectos 🛠️🚀</h2>
     <!-- lista de proyectos -->
     <ul class="lista-proyectos">
 

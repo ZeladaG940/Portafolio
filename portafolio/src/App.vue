@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <header>
+  <header id="top">
     <navBar/>
     <DatosPersonales/>
   </header>
@@ -26,6 +26,10 @@
 
     <section id="intereses"><InterecesComponente/></section>
   </main>
+  <footer>
+    <a href="#top">Inicio</a>
+    <p>Orlando zelada - Portafolio web</p>
+  </footer>
 </template>
 
 <style scoped>
